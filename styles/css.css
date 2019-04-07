@@ -344,7 +344,10 @@ nav ul li ul li a{
 	
 }
 
+.menu1{
 
+	padding-left: 20px;
+}
 
 
 /*-------------Choix de page du site IMG-------------------*/
@@ -533,7 +536,24 @@ footer {
 }
 
 
+@media (orientation: landscape){
 
+#title{
+
+	height: 15vh;
+}
+
+.title2{
+
+	top: 19vh;
+}
+#galerie{
+
+	margin: 0px 28%;
+	width: 44%;
+}
+
+}
 /*----------------screen 1000px-----------------*/
 
 @media screen and (min-width:1000px){
