@@ -433,6 +433,7 @@ h3{
 #nousRejoindre{
 
 	padding-top: 50px;
+	text-align: center;
 }
 
 .text{
@@ -449,7 +450,7 @@ h3{
 	font-size: 1.1rem;
 	padding-left: 24px;
 	margin-right: 24px;
-	display: inline-block;
+	display: block;
 }
 
 .video-container{
@@ -461,7 +462,7 @@ h3{
 
 	position: static;
 	margin: 15px auto;
-	width: 80%;
+	width: 100%;
 }
 
 
@@ -652,6 +653,17 @@ textarea{
 	height: 36vh;
 }
 
+.textJoindre{
+
+	text-align: center;
+
+}
+
+.image-container{
+
+	width: 60%;
+
+}
 
 }
 /*----------------screen 1000px-----------------*/
@@ -847,7 +859,7 @@ textarea{
 	
 	.formulaire2 {
 		
-		height: 133px;
+		height: 14vh;
 	
 	}
 
@@ -969,17 +981,17 @@ textarea{
 
 	/* zoom (background) */
 	.zoom {
-	  display: none; /* Hidden by default */
-	  position: fixed; /* Stay in place */
-	  z-index: 1000; /* Sit on top */
-	  padding-top: 100px; /* Location of the box */
+	  display: none; 
+	  position: fixed; 
+	  z-index: 1000; 
+	  padding-top: 100px; 
 	  left: 0;
 	  top: 0;
-	  width: 100%; /* Full width */
-	  height: 100%; /* Full height */
-	  overflow: auto; /* Enable scroll if needed */
-	  background-color: rgb(0,0,0); /* Fallback color */
-	  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	  width: 100%; 
+	  height: 100%; 
+	  overflow: auto; 
+	  background-color: rgb(0,0,0); 
+	  background-color: rgba(0,0,0,0.9); 
 	}
 
 	/* zoom contenu (Image) */
@@ -1030,6 +1042,28 @@ textarea{
 	  text-decoration: none;
 	  cursor: pointer;
 	}
+
+	.textJoindre{
+
+		text-align: center;
+		margin: 15px;
+		font-size: 1.4rem;
+	}
+
+	.video-container{
+
+		width: 80%;
+		margin: auto;
+		padding: 31vh;
+	}
+
+
+	.text {
+		
+		font-size: 2.5rem;
+
+	}
+
 	}
 /*--------------screen 1350px-----------*/
 
