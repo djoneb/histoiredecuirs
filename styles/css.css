@@ -65,7 +65,7 @@ a, a:link, a:visited, a:hover, a:focus, a:active{
 	position:fixed;
 	width: 100vw;
 	padding-left: 21px;
-	
+	z-index: 4;
 }
 
 #title h1{
@@ -572,6 +572,19 @@ label{
 	top: 0;
 	width: 100%;
 }
+/*---------------cacher maps-----------------*/
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #2c2a3782;
+	border: solid 1px #fff;
+}
+
+#panel {
+  padding: 50px;
+}
+
 /*---------------------youtube responsive------*/
 
 .video-container {
@@ -608,6 +621,8 @@ footer {
 	width: 100%;
 	padding-top: 10px;
 }
+
+
 
 /*--------------------landscape-------------------------*/
 
