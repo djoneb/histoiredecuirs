@@ -79,28 +79,28 @@
 
 						<label>Nous contactez via se formulaire</label>
 
-					<form  action="index.html" method="post" autocomplete="on">
+					<form  action="index.html" method="post" autocomplete="on" onsubmit="return verifForm(this)">
 					
 						<fieldset>
 						
 					<div class="formulaire1">
 					
 						<label for="iptid">Prénom:</label>
-						<input type="text" name="id" id="iptid" autofocus>
+						<input type="text" name="id" id="iptid" onblur="verifPseudo(this)" autofocus>
 						
 					</div>
 					
 					<div class="formulaire1">
 					
 						<label for="iptid2">Nom:</label>
-						<input type="text" name="id" id="iptid2">
+						<input type="text" name="id" id="iptid2" onblur="verifPseudo(this)">
 						
 					</div>
 
 					<div class="formulaire1">
 					
 						<label for="iptmail"> Email de contact: </label>
-						<input id="iptmail" type="email" name="email" size="32" minlength="3" maxlength="64" required placeholder="mon.email@mail.com">
+						<input id="iptmail" type="email" name="email" size="32" minlength="3" maxlength="64" required placeholder="mon.email@mail.com "onblur="verifMail(this)">
 						
 						</div>
 						
@@ -114,7 +114,7 @@
 				
 					</fieldset>
 					
-					<input type="submit" id="benvoyer" value="Envoyer">
+					<input type="submit" id="benvoyer" value="Envoyer" >
 					
 					</form>
 				</div>
