@@ -472,9 +472,13 @@ dt{
 }
 .formulaire2{
 
-	height: 70px;
+	height: 11vh;
 	margin-bottom: 20px;
 
+}
+.formulaireName{
+
+	height: 32vh;
 }
 
 #formulaire input:hover{
@@ -487,14 +491,18 @@ dt{
 textarea{
 	
 	width: 73vw;
-	height: 5vh;
+	height: 6vh;
+	display: block;
+	margin: auto;
 	
 }
 
 input:not(#benvoyer){
 	
-	width:66vw;
-	height:4vh;
+	width: 66vw;
+	height: 4vh;
+	display: block;
+	margin: auto;	
 }
 
 input#benvoyer{
@@ -503,6 +511,13 @@ input#benvoyer{
 	margin: auto;
 	width: 71vw;
 	height: 3vh;
+}
+
+label{
+
+	margin-left: auto;
+	text-align: center;
+	display: block;
 }
 	
 /*-------------------maps responsive-----------------*/
@@ -535,6 +550,7 @@ footer {
 	padding-top: 10px;
 }
 
+/*--------------------landscape-------------------------*/
 
 @media (orientation: landscape){
 
@@ -552,6 +568,31 @@ footer {
 	margin: 0px 28%;
 	width: 44%;
 }
+
+input:not(#benvoyer){
+
+	height: 8vh;
+}
+
+input#benvoyer{
+
+	height: 8vh;
+}
+
+textarea{
+
+	height: 22vh;
+}
+
+.formulaireName {
+	height: 65vh;
+}
+
+.formulaire2{
+
+	height: 36vh;
+}
+
 
 }
 /*----------------screen 1000px-----------------*/
@@ -713,34 +754,35 @@ footer {
 
 	textarea{
 		
-		width: 94vw;
+		width: 77vw;
 		height: 10vh;
-		margin-left: 20px;
+		margin: auto;
+		display: block;
 		
 	}
 
 	input:not(#benvoyer){
 		
-		width:94vw;
+		width:34vw;
 		height:4vh;
-	}
-
-	#iptmail{
-
-		margin-left: 20px;
-		
+		margin: auto;
+		display: block;
 	}
 
 	fieldset{
 
 		height: 230px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 
 
 	label{
 
-		margin-left: 20px;
+		margin-left: auto;
+		text-align: center;
+		display: block;
 	}
 
 	
@@ -749,6 +791,16 @@ footer {
 		height: 133px;
 	
 	}
+
+	.formulaire1 {
+    margin-top: 4vh;
+    
+}
+
+	.formulaireName {
+    height: 37vh;
+    
+}
 
 
 	/*-----------Gallery----------*/
@@ -914,8 +966,7 @@ footer {
 		display:block
 	}
 
-	.close:hover,
-	.close:focus {
+	.close:hover,.close:focus {
 	  color: #bbb;
 	  text-decoration: none;
 	  cursor: pointer;
@@ -941,7 +992,5 @@ nav li{
 	width:300px;
 }
 
-textarea{
 
-	margin-right: 20px;
 }
