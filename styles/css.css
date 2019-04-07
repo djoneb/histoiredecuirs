@@ -428,6 +428,42 @@ h3{
 	padding-left: 8px;
 
 }
+/*-----------page nous rejoindre---------*/
+
+#nousRejoindre{
+
+	padding-top: 50px;
+}
+
+.text{
+
+	font-size: 1.8rem;
+	margin-left: 11px;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+.textJoindre{
+
+	font-size: 1.1rem;
+	padding-left: 24px;
+	margin-right: 24px;
+	display: inline-block;
+}
+
+.video-container{
+
+	margin-bottom: 15px;
+}
+
+.image-container{
+
+	position: static;
+	margin: 15px auto;
+	width: 80%;
+}
+
 
 
 /*--------------portfolio---------------------*/
@@ -535,6 +571,30 @@ label{
 	top: 0;
 	width: 100%;
 }
+/*---------------------youtube responsive------*/
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	}
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+	.video-wrapper {
+		width: 600px;
+		max-width: 100%;
+	}
+
 
 /*-----------------------footer------------------*/
 
@@ -551,7 +611,7 @@ footer {
 /*--------------------landscape-------------------------*/
 
 
-@media screen and (min-width:100px) and (orientation: landscape){
+@media screen and (orientation: landscape){
 
 #title{
 
@@ -621,7 +681,7 @@ textarea{
 
 	nav .closebtn {
 
-		display: none
+		display: none;
 		position: static;
 		top: 0;
 		right: 0px;
